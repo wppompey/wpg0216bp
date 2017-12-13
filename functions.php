@@ -20,7 +20,7 @@ if ( !function_exists( 'bw_wp_head')) {
 
   function bw_wp_head( $atts = NULL ) {
     $atts['prefix'] = 'Call us now';
-    echo bw_tel( $atts );
+    //echo bw_tel( $atts );
      }
 }
 
