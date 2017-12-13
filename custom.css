@@ -10,7 +10,11 @@ background-attachment: fixed;
 }
 */
 
-div#header { background-repeat: no-repeat; }
+div#header { background-repeat: no-repeat; float: left; width: 100%; }
 
 abbr { font-weight: bold; }
+
+p a.button { margin-top: 35px; line-height: 50px; }
+
+#navigation { float: right; width: 75%; }
 
