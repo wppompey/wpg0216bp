@@ -43,7 +43,7 @@
 
 				</div><!-- .padder -->
 			</div><!-- #search-bar -->
-                        <?php echo bw_slogan(); ?>
+                        <?php //echo bw_slogan(); ?>
 
 			<div id="navigation" role="navigation">
 				<?php wp_nav_menu( array( 'container' => false, 'menu_id' => 'nav', 'theme_location' => 'primary', 'fallback_cb' => 'bp_dtheme_main_nav' ) ); ?>
