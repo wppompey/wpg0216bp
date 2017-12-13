@@ -1,0 +1,58 @@
+/*
+Theme Name: wpg0216bp
+Template: bp-default
+Theme URI: http://www.bobbingwide.com
+Description: (C) Bobbing Wide, WP-Pompey 2012 
+Version: 1.0
+Author: Bobbing Wide
+Author URI: http://www.bobbingwide.com
+Tags: variable width, right sidebar, two columns, valid XHTML, widgets, buddypress
+*/
+
+
+#nav .sfhover ul, #nav :hover ul { width: auto; text-align: left; } 
+#nav .sfhover ul li { width: auto; display:block; white-space: nowrap; } 
+#nav .sfhover ul li a { padding-right: 12px; }
+
+/*
+body { font-size:  14px; }
+ul {-webkit-padding-start: 0px; }
+h1, h2, h3, h4, h5, h6 { color: #00296f; color: #315088; }
+a { color: #8199ce; }
+div.padder span.tel { font-size: 140%; color: #315088;}
+div.padder span.tel span.value {  font-size: 110%; }
+#footer-widget-area div.widget-area > ul { width: 25%; }
+*/
+
+div#navigation { background: white; text-align: left; }
+#nav { margin-top: 35px; margin-left: 0px; margin-bottom:3px; left: auto; }
+#nav li { margin-bottom: 5px; line-height: 220%; font-size: 120%; }
+#nav li a {  
+background-image: linear-gradient(top, #36AFD1 13%, #30BDE4 45%, #1BAAD2 52%);
+background-image: -o-linear-gradient(top, #36AFD1 13%, #30BDE4 45%, #1BAAD2 52%);
+background-image: -moz-linear-gradient(top, #36AFD1 13%, #30BDE4 45%, #1BAAD2 52%);
+background-image: -webkit-linear-gradient(top, #36AFD1 13%, #30BDE4 45%, #1BAAD2 52%);
+background-image: -ms-linear-gradient(top, #36AFD1 13%, #30BDE4 45%, #1BAAD2 52%);
+
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.13, #36AFD1),
+	color-stop(0.45, #30BDE4),
+	color-stop(0.52, #1BAAD2)
+);
+}
+
+#nav > li > a {
+	-moz-border-radius-topleft: 0px;
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	-webkit-border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+        }
+#nav li a:hover { text-decoration: underline; } 
+
+span.main-slogan { margin-left: 150px; color: #4178a5; font-size: 150%; display:block; }       
+

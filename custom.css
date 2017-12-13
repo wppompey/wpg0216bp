@@ -1,0 +1,16 @@
+/* (C) Copyright Bobbing Wide 2011 */
+/* Dummy custom.css */
+
+/*
+body#bp-default { 
+background-image: url('images/Middle_texture.png');
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed; 
+}
+*/
+
+div#header { background-repeat: no-repeat; }
+
+abbr { font-weight: bold; }
+
